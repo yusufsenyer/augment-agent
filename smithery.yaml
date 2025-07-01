@@ -1,0 +1,12 @@
+runtime: typescript
+name: weather-mcp-server
+description: "Hava durumu MCP server - Open-Meteo API kullanarak hava durumu verilerini sağlar"
+version: 1.0.0
+author: "Yusuf Senyer"
+tags:
+  - weather
+  - hava-durumu
+  - open-meteo
+  - türkiye
+  - forecast
+  - climate
