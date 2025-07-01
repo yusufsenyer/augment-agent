@@ -105,6 +105,33 @@ Bu proje [Open-Meteo](https://open-meteo.com/) API'sini kullanmaktadır. Open-Me
 
 MIT
 
+## Smithery Deployment
+
+Bu MCP server Smithery platformunda deploy edilebilir:
+
+1. GitHub repository'sini oluşturun
+2. Kodu GitHub'a push edin
+3. [Smithery.ai](https://smithery.ai) hesabınızla giriş yapın
+4. "Deploy" butonuna tıklayın ve GitHub repository'sini seçin
+5. Smithery otomatik olarak build ve deploy işlemini gerçekleştirecek
+
+### Smithery URL
+Deploy edildikten sonra MCP server şu şekilde kullanılabilir:
+```
+https://server.smithery.ai/@username/weather-mcp-server
+```
+
+## Mobil Uygulama
+
+Bu proje ayrıca React Native/Expo ile geliştirilmiş basit bir mobil uygulama içerir:
+
+```bash
+cd weather-mobile-app
+npm run web    # Web versiyonu için
+npm run android # Android için (Android Studio gerekli)
+npm run ios    # iOS için (macOS gerekli)
+```
+
 ## Geliştirici
 
 Yusuf Senyer
