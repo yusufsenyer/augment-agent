@@ -1,0 +1,13 @@
+runtime: typescript
+name: augment-weather-agent
+description: "Hava durumu MCP server'ını kullanan akıllı agent - Doğal dil ile hava durumu sorgulama"
+version: 1.0.0
+author: "Yusuf Senyer"
+tags:
+  - agent
+  - weather
+  - mcp
+  - ai
+  - assistant
+  - hava-durumu
+  - türkçe
